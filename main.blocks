@@ -1,1 +1,37 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="uLrhx%%IW:K.+elIBMd~" x="0" y="0"></block><block type="device_forever" id="T(7;z0q_skm*yxTuG]9G" x="205" y="0"></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="U.9Z};-aV6c|U`%%|+K?">count</variable></variables><block type="variables_change" id="G*Zcq!T$E!:^9N[HHmv]" disabled="true" x="0" y="0"><field name="VAR" id="U.9Z};-aV6c|U`%%|+K?">count</field><value name="VALUE"><shadow type="math_number" id="Kiu3A:8mFsMf)8.6c1mB" disabled="true"><field name="NUM">1</field></shadow></value></block><block type="device_button_event" id="kLI$KKz_1*)eG^gC=;)m" x="545" y="69"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="variables_set" id="yqCKvk}@hSezIeA~Y9!_"><field name="VAR" id="U.9Z};-aV6c|U`%%|+K?">count</field><value name="VALUE"><shadow type="math_number" id="%hu}bz{o)QrjcBjw7:$@"><field name="NUM">9</field></shadow></value><next><block type="device_show_number" id="I#_.)tZ0Ni{!Y.R#GAc#"><value name="number"><shadow type="math_number" id="NW}_++:u({JYJ$u;kd`f"><field name="NUM">0</field></shadow><block type="variables_get" id="qfun-x;P%BcHkzH_.+RX"><field name="VAR" id="U.9Z};-aV6c|U`%%|+K?">count</field></block></value><next><block type="device_while" id="A~T1fO;^(n_WbmtB6]6."><value name="COND"><shadow type="logic_boolean" id="U[NLy0F)?-D:^ndEvqvq"><field name="BOOL">FALSE</field></shadow><block type="logic_compare" id="Ei?i@Lka7loNYMrp)@%%"><field name="OP">GT</field><value name="A"><shadow type="math_number" id="m`Wac)_IXPL__2Ib2H|K" disabled="true"><field name="NUM">0</field></shadow><block type="variables_get" id="ir~SH~izxJ4bnZg88JXZ"><field name="VAR" id="U.9Z};-aV6c|U`%%|+K?">count</field></block></value><value name="B"><shadow type="math_number" id="ht{V}+.umXGX+Kz,}{bG"><field name="NUM">0</field></shadow></value></block></value><statement name="DO"><block type="variables_change" id="aAA?`zq3{4_BObm%TKbK"><field name="VAR" id="U.9Z};-aV6c|U`%%|+K?">count</field><value name="VALUE"><shadow type="math_number" id="JNv;O6C9WiR;k.3!1q2O"><field name="NUM">-1</field></shadow></value><next><block type="device_show_number" id="ZkCUS7*otGQRzRkVIXm$"><value name="number"><shadow type="math_number" id="i4@#^JBJmDNsg]%7$bz$"><field name="NUM">0</field></shadow><block type="variables_get" id="wLyKaWxH]j7z6/Ljv,yq"><field name="VAR" id="U.9Z};-aV6c|U`%%|+K?">count</field></block></value></block></next></block></statement><next><block type="device_show_leds" id="IaV+=WzqEK]D`NW_2XrW"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id=",o_:-ag50n}h+GN!h2m9"><field name="LEDS">`
+        . . . . . 
+        . . # . . 
+        . # . # . 
+        . . # . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="(?HbSSL_oPjbcLD+sTRf"><field name="LEDS">`
+        . . # . . 
+        . # . # . 
+        # . . . # 
+        . # . # . 
+        . . # . .
+        `</field><next><block type="device_show_leds" id="^/#3r7[P|S03:#0Hs=?f"><field name="LEDS">`
+        . # . # . 
+        # . . . # 
+        . . . . . 
+        # . . . # 
+        . # . # .
+        `</field><next><block type="device_show_leds" id="hMYt^S!ANAy^/(]0`dWf"><field name="LEDS">`
+        # . . . # 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        # . . . #
+        `</field><next><block type="device_show_leds" id="7sifw3rq}`/Bg.0(8Mj0"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="XSo3uC)bn7y}PR+A@Thb" x="875" y="62"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="variables_set" id="?fQn=cPy9@G_$]@WVQP,"><field name="VAR" id="U.9Z};-aV6c|U`%%|+K?">count</field><value name="VALUE"><shadow type="math_number" id="EG^QmX!^J|eW8NC*Pt$^"><field name="NUM">-1</field></shadow></value></block></statement></block><block type="device_print_message" id="`a0]InX~`-Whu|:Uh`GY" disabled="true" x="192" y="119"><value name="text"><shadow type="text" id="/Z%;Niw2IXz0{1*$CeJ*" disabled="true"><field name="TEXT">2b08 aydenchen</field></shadow></value></block></xml>
